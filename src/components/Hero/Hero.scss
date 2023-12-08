@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+.hero{
+    background:url('./../../assets/images/hero.jpeg');
+    height: 100Vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto 0;
+    }
+    &__text-header{
+        font-size: 60px;
+        font-weight: 800;
+        margin: 0;
+    }
+    &__text-small{
+        font-size: 22px;
+        margin: 0;
+    }
+    &__button{
+        width: 170px;
+        height: 36px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        border-radius: 4px;
+        border: none;
+        background-color: bisque;
+    }
+
+}

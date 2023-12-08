@@ -1,0 +1,22 @@
+
+.project{
+
+}
+
+.container{
+    display: flex;
+    &__left-card{
+
+    }
+    &__right-card{
+
+    }
+    &__icon-pannel{
+
+    }
+    &__icon{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+}
