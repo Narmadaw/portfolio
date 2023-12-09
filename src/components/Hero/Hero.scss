@@ -4,7 +4,7 @@
 }
 .hero{
     background:url('./../../assets/images/hero.jpeg');
-    height: 100Vh;
+    height: 70vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -13,8 +13,9 @@
     &__text{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        margin: auto 0;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
     }
     &__text-header{
         font-size: 60px;
@@ -22,18 +23,35 @@
         margin: 0;
     }
     &__text-small{
+        text-align: center;
         font-size: 22px;
+        width: 50%;
         margin: 0;
     }
     &__button{
         width: 170px;
-        height: 36px;
+        height: 48px;
         font-size: 20px;
         font-weight: 700;
         line-height: 30px;
         border-radius: 4px;
         border: none;
-        background-color: bisque;
+        margin-top: 1.5rem;
+        background-color: #ffcf00;
+        //color: white;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+    &__icon-pannel{
+        margin-top: 1.5rem;
+        display: flex;
+    }
+    &__icon{
+        height: 40px;
+        margin: 0 0.5rem;
+        
     }
 
 }

@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+
+.aboutme{
+    height: 500px;
+    width: 100%;
+    padding: 0 2.5rem;
+    &__header{
+        width: 100%;
+        text-align: center;
+
+    }
+    &__h-line{
+        width: 40px;
+        height: 4px;
+        background-color: #ffcf00;
+        border: none;
+    }
+}
+
+.about-container{
+    display: flex;
+    &__left{
+        padding: 0 1.5rem;
+        width: 50%;
+    }
+    &__right{
+        width: 50%;
+        padding: 0 1.5rem;
+    }
+    &__special{
+        font-weight: 700;
+    }
+    &__education{
+        
+    }
+    &__edu-icon{
+        width: 100px;
+       margin: auto auto;
+        &--king{
+            height: 40px;
+        }
+    }
+    &__pannel{
+        display: flex;
+    }
+    &__pannel-card{
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+    &__edu-text{
+        margin: 0;
+    }
+    &__skill-icon{
+        width: 50px;
+        height: 50px;
+    }
+}
