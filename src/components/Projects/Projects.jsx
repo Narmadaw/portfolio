@@ -26,7 +26,7 @@ const Projects = () =>{
 
     return (
         
-        <section id='projects'>
+        <div id='projects'>
 
         
         <div  className='projects'>
@@ -104,7 +104,7 @@ const Projects = () =>{
                 </div>
             </div>
         </div>
-        </section>
+        </div>
         
     );
 }
