@@ -1,54 +1,95 @@
+@use'./../../styles/mixins' as *;
 *{
     box-sizing: border-box;
     //border: 1px solid black;
 }
 
 .aboutme{
-    height: 500px;
+    height: auto;
     width: 100%;
-    padding: 0 2.5rem;
-    &__header{
-        width: 100%;
-        text-align: center;
+    padding: 0 1rem;
 
+    @include desktop{
+        height: 500px;
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    &__header-pannel{
+        @include desktop{
+            font-size: 30px;
+            margin: 1.5rem 0 2.5rem 0;
+        }
+    }
+
+    &__header{
+        margin: 0;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        @include desktop{
+            font-size: 30px;
+        }
     }
     &__h-line{
         width: 40px;
         height: 4px;
         background-color: #ffcf00;
         border: none;
+        margin: 0 auto;
     }
 }
 
 .about-container{
-    display: flex;
+
+    @include desktop{
+       display: flex;
+    }
+    &__header{
+        margin: 0;
+        font-size: 18px;
+    }
+    &__text{
+        font-size: 16px;
+    }
     &__left{
-        padding: 0 1.5rem;
-        width: 50%;
+        width: 100%;
+        @include desktop{
+            width: 50%;
+            padding: 0 1.5rem;
+        }
     }
     &__right{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 50%;
-        padding: 0 1.5rem 1.5rem;
+        width: 100%;
+        
+        @include desktop{
+            width: 50%;
+            padding: 0 1.5rem 1.5rem;
+        }
     }
     &__special{
         font-weight: 700;
     }
     &__education{
-        
-        
+        display: flex;
+        flex-direction: column;
     }
     &__edu-icon{
         width: 100px;
-       margin: auto auto;
+        margin: auto auto;
         &--king{
             height: 40px;
         }
     }
     &__pannel{
-        display: flex;
+        @include tablet{
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
     }
     &__pannel-card{
         height: 65px;
@@ -58,11 +99,16 @@
     }
     &__edu-text{
         margin: 0;
+        text-align: center;
     }
     &__skill-icon{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         margin: 0 0.5rem;
+        @include desktop{
+            width: 50px;
+            height: 50px;
+        }
     }
     &__list{
         display: flex;

@@ -1,16 +1,25 @@
+@use'./../../styles/mixins' as *;
 .footer{
     background-color: #222222;
-
     &__container{
         padding: 2.5rem;
-        display: flex;
-        justify-content: space-between;
+        text-align: center;
+        @include desktop{
+            padding: 2.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
     }
   
     &__right{
         display: flex;
         column-gap: 1rem;
-        justify-content: right;
+        justify-content: center;
+        @include desktop{
+            display: flex;
+            column-gap: 1rem;
+            justify-content: right;
+        }
     }
    
     &__copy-text{
@@ -43,4 +52,5 @@
         margin: 0;
         color: white;
     }
+    
 }

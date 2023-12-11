@@ -18,32 +18,32 @@ const AboutMe = () =>{
     return(
         <>
         <div id='aboutme' className='aboutme'>
-            <div className='aboutme__header'>
-                <h1>About Me</h1>
+            <div className='aboutme__header-pannel'>
+                <h1 className='aboutme__header'>About Me</h1>
                 <hr className='aboutme__h-line' />
             </div>
             <div className='about-container'>
                 <div className='about-container__left'>
-                    <h2>It's me Narmada</h2>
-                    <p>
+                    <h2 className='about-container__header'>It's me Narmada</h2>
+                    <p className='about-container__text'>
                         I love coding. It brings me joy, and that's why I chose software engineering as my profession. The ability to create and solve problems through code is not just a job for me, it's my true passion.
                     </p>
-                    <p> I was born and raised on the beautiful island of Sri Lanka. I pursued my <span className='about-container__special'>studies and worked</span> as a <span className='about-container__special'>C# & .Net</span> software engineer for <span className='about-container__special'>1+ years</span>.  
+                    <p className='about-container__text'> I was born and raised on the beautiful island of Sri Lanka. I pursued my <span className='about-container__special'>studies and worked</span> as a <span className='about-container__special'>C# & .Net</span> software engineer for <span className='about-container__special'>1+ years</span>.  
                         Later, I moved to Canada for further studies. 
                         Now, I am looking back to returning to the career I am most passionate about.</p>
-                    <p>
+                    <p className='about-container__text'>
                         As I dedicated my focus to furthering my education, I found that certain aspects of my work had faded from memory. 
                         To remedy this, I enrolled in a comprehensive 3-month boot camp to refresh my knowledge. I successfully completed the <span className='about-container__special'>web development</span> bootcamp at BrainStation, Vancouver, Canada. 
                         During this intensive program, I acquired expertise in <span className='about-container__special'>React, JavaScript and best practices</span> in the field.
                     </p>
-                    <p>
+                    <p className='about-container__text'>
                         Now, I am open to <span className='about-container__special'>Job</span> opportunities where I can contribute, learn and grow.
                     </p>
                 </div>
                 <div className="about-container__right">
                     <div className="about-container__education">
-                        <div className='about-container__header'>
-                            <h2>My Education</h2>
+                        <div >
+                            <h2 className='about-container__header'>My Education</h2>
                         </div>
                         <div className='about-container__pannel'>
                             <div className='about-container__pannel-card'>
@@ -61,8 +61,8 @@ const AboutMe = () =>{
                         </div>
                     </div>
                     <div className="about-container__skills">
-                        <h2>My Skills</h2>
-                        <div>
+                        <h2 className='about-container__header'>My Skills</h2>
+                        <div className='about-container__pannel'>
                             <img className='about-container__skill-icon' src={Csharp} alt="c-sharp" />
                             <img className='about-container__skill-icon' src={DotNet} alt="dot net" />
                             <img className='about-container__skill-icon' src={JavaScript} alt="javascript" />

@@ -25,11 +25,10 @@ const Hero = ()=>{
                 <button className='hero__button' onClick={scrollToProjects}>PROJECTS</button>
 
                 <div className='hero__icon-pannel'>
-                <img className='hero__icon' src={Github} alt='github' onClick={linkToGithub } />
-                <img className='hero__icon' src={Linkdin} alt='linkdin' onClick={linkToLinkedIn } />
+                    <img className='hero__icon' src={Github} alt='github' onClick={linkToGithub } />
+                    <img className='hero__icon' src={Linkdin} alt='linkdin' onClick={linkToLinkedIn } />
+                </div>
             </div>
-            </div>
-            
         </div>
         </>
     );

@@ -1,31 +1,44 @@
+@use'./../../styles/mixins' as *;
+
 *{
     box-sizing: border-box;
     //border: 1px solid black;
 }
 .hero{
     background:url('./../../assets/images/hero.jpeg');
-    height: 70vh;
     width: 100%;
+    margin-top: 100px;
     background-size: cover;
     background-position: center;
-   
+    @include desktop{
+        height: 70vh;
+    }
 
     &__text{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        height: auto;
+        @include desktop{
+            height: 70vh;
+        }
     }
     &__text-header{
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 800;
         margin: 0;
+        text-align: center;
+        padding: 1rem;
+
+        @include desktop{
+            font-size: 60px;
+        }
     }
     &__text-small{
         text-align: center;
-        font-size: 22px;
-        width: 50%;
+        font-size: 18px;
+        width: 100%;
         margin: 0;
     }
     &__button{
@@ -38,14 +51,13 @@
         border: none;
         margin-top: 1.5rem;
         background-color: #ffcf00;
-        //color: white;
         &:hover{
             background-color: black;
             color: white;
         }
     }
     &__icon-pannel{
-        margin-top: 1.5rem;
+        margin: 1rem;
         display: flex;
     }
     &__icon{

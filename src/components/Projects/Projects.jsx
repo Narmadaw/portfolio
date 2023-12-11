@@ -30,8 +30,8 @@ const Projects = () =>{
 
         
         <div  className='projects'>
-            <div className='title'>
-                <h1>Projects</h1>
+            <div className='pannel'>
+                <h1 className='title'>Projects</h1>
                 <hr className='aboutme__h-line' />
             </div>
             <div className='container'>
@@ -53,8 +53,10 @@ const Projects = () =>{
                             <li>Mongo DB</li>
                         </ul>
                     </div>
-                    <button className='container__button' onClick={linktoTodo}>Link to Website</button>
-                    <button className='container__button' onClick={linktoTodogithub}>Link to GitHub</button>
+                    <div className='container__button-pannel'>
+                        <button className='container__button' onClick={linktoTodo}>Link to Website</button>
+                        <button className='container__button' onClick={linktoTodogithub}>Link to GitHub</button>
+                    </div>
                 </div>
             </div> {/* end of todo */}
             
@@ -77,7 +79,10 @@ const Projects = () =>{
                             <li>MySql</li>
                         </ul>
                     </div>
-                    <button className='container__button' onClick={linktoInStockgithub}>Link to GitHub</button>
+                    <div className='container__button-pannel'>
+                        <button className='container__button' onClick={linktoInStockgithub}>Link to GitHub</button>
+                    </div>
+                    
                 </div>
             </div> {/* end of instock */}
 
@@ -99,8 +104,11 @@ const Projects = () =>{
                                 <li>Express Js</li>
                             </ul>
                     </div>
-                    <button className='container__button' onClick={linktoBrainflix}>Link to Website</button>
-                    <button className='container__button' onClick={linktoBrainflixgithub}>Link to GitHub</button>
+                    <div className='container__button-pannel'>
+                        <button className='container__button' onClick={linktoBrainflix}>Link to Website</button>
+                        <button className='container__button' onClick={linktoBrainflixgithub}>Link to GitHub</button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
