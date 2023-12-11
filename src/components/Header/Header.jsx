@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import ProfileImage from './../../assets/images/pro-pic.jpg' 
 import './Header.scss';
 
@@ -16,6 +17,7 @@ const Header = ()=>{
         const projectsSection = document.getElementById('aboutme'); // Replace 'projects' with the actual ID of your Projects section
         projectsSection.scrollIntoView({ behavior: 'smooth' });
       };
+
     
     return(
         <>
@@ -34,7 +36,8 @@ const Header = ()=>{
                 <div className='nav__profile'>
                     <img className='nav__img' src={ProfileImage} alt='avatar'/>
                     <h2 className='nav__profile-name'>Narmada Wijerathne</h2>
-                    <button className='nav__resume-btn'>MY RESUME</button>
+                    {/* <button className='nav__resume-btn' onClick={handleDownload}>MY RESUME</button> */}
+                    
                 </div>
                 
                 <div className='nav__menu'>
