@@ -1,0 +1,46 @@
+.footer{
+    background-color: #222222;
+
+    &__container{
+        padding: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    &__right{
+        display: flex;
+        column-gap: 1rem;
+        justify-content: right;
+    }
+   
+    &__copy-text{
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 1.5rem;
+    }
+    &__header{
+        color: white;
+        margin: 0;
+        font-size: 22px;
+    }
+    &__sub-header{
+        color: white;
+        margin: 0;
+        font-size: 16px;
+    }
+    &__icon-box{
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: white;
+    }
+    &__icon{
+        width: 40px;
+        height: 40px;
+    }
+    &__text{
+        margin: 0;
+        color: white;
+    }
+}

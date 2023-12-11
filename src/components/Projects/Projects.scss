@@ -1,5 +1,9 @@
-
+*{
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
 .project{
+    
     
 }
 .title{
@@ -9,12 +13,26 @@
 .container{
     display: flex;
     flex-direction: row;
+    margin: 1rem 0;
     &__left-card{
+        width: 50%;
+        text-align: center;
 
 
     }
     &__right-card{
+        width: 50%;
+        padding: 2.5rem 0;
 
+    }
+    &__p-title{
+        margin: 0;
+    }
+    &__image{
+        
+        object-fit: contain;
+        object-position: center;
+        
     }
     &__icon-pannel{
 
