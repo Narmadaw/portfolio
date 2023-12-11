@@ -1,15 +1,15 @@
 @use'./../../styles/mixins' as *;
 
-*{
-    box-sizing: border-box;
-    //border: 1px solid black;
-}
+
 .hero{
     background:url('./../../assets/images/hero.jpeg');
     width: 100%;
-    margin-top: 100px;
+    margin-top: 160px;
     background-size: cover;
     background-position: center;
+    @include tablet{
+        margin-top: 80px;
+    }
     @include desktop{
         height: 70vh;
     }
@@ -40,6 +40,9 @@
         font-size: 18px;
         width: 100%;
         margin: 0;
+        @include desktop{
+            font-size: 22px;
+        }
     }
     &__button{
         width: 170px;

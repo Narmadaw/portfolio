@@ -34,8 +34,11 @@ const Header = ()=>{
                 <div className='nav__profile'>
                     <img className='nav__img' src={ProfileImage} alt='avatar'/>
                     <h2 className='nav__profile-name'>Narmada Wijerathne</h2>
+                    <button className='nav__resume-btn'>MY RESUME</button>
                 </div>
+                
                 <div className='nav__menu'>
+                
                     <ul className='nav__manu-list'>
                         <li className='nav__menu-list-item' onClick={scrollToHome}>HOME</li>
                         <li className='nav__menu-list-item' onClick={scrollToAbout}>ABOUT</li>
