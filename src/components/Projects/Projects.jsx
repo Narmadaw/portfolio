@@ -36,7 +36,7 @@ const Projects = () =>{
             </div>
             <div className='container'>
                 <div className='container__left-card'>
-                    <img className='container__image' src={TodoImage} alt='todo project image' />
+                    <img className='container__image' src={TodoImage} alt='todo-project' />
                 </div>
                 <div className="container__right-card">
                     <h3 className='container__p-title'>Todo List</h3>
@@ -60,7 +60,7 @@ const Projects = () =>{
             
             <div className='container'>
                 <div className='container__left-card'>
-                    <img className='container__image' src={InstockImage} alt='todo project image' />
+                    <img className='container__image' src={InstockImage} alt='instock-project' />
                 </div>
                 <div className="container__right-card">
                     <h3 className='container__p-title'>Instock</h3>
@@ -83,7 +83,7 @@ const Projects = () =>{
 
             <div className='container'>
                 <div className='container__left-card'>
-                    <img className='container__image' src={BrainFlixImage} alt='todo project image' />
+                    <img className='container__image' src={BrainFlixImage} alt='brainflix-project' />
                 </div>
                 <div className="container__right-card">
                     <h3 className='container__p-title'>BrainFlix</h3>

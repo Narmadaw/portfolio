@@ -22,7 +22,7 @@ const Header = ()=>{
         <div className='header'>
             <div className='nav'>
                 <div className='nav__profile'>
-                    <img className='nav__img' src={ProfileImage} alt='profile image' />
+                    <img className='nav__img' src={ProfileImage} alt='avatar'/>
                     <h2 className='nav__profile-name'>Narmada Wijerathne</h2>
                 </div>
                 <div className='nav__menu'>
