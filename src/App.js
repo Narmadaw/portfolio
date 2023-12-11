@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.scss';
 import AboutMe from './components/AboutMe/AboutMe';
 import Header from './components/Header/Header';
@@ -9,7 +8,6 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
    <>
-   
       <Header />
       <Hero />
       <AboutMe />

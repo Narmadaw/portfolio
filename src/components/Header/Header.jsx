@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 import ProfileImage from './../../assets/images/pro-pic.jpg' 
 import './Header.scss';
 

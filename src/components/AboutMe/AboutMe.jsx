@@ -7,10 +7,8 @@ import Node from './../../assets/images/tech-stack-icons/nodejs.svg';
 import Html from './../../assets/images/tech-stack-icons/html-5.svg';
 import Css from './../../assets/images/tech-stack-icons/css-3.svg';
 import Sass from './../../assets/images/tech-stack-icons/sass.svg';
-import Axios from './../../assets/images/tech-stack-icons/axios.svg';
 import Csharp from './../../assets/images/tech-stack-icons/c-sharp.svg';
 import DotNet from './../../assets/images/tech-stack-icons/dotnet.svg';
-import MongoDB from './../../assets/images/tech-stack-icons/mongodb.svg';
 import Git from './../../assets/images/tech-stack-icons/git-icon.svg';
 import MySql from './../../assets/images/tech-stack-icons/mysql.svg';
 
@@ -65,18 +63,18 @@ const AboutMe = () =>{
                     <div className="about-container__skills">
                         <h2>My Skills</h2>
                         <div>
-                            <img className='about-container__skill-icon' src={Csharp} alt="react" />
-                            <img className='about-container__skill-icon' src={DotNet} alt="react" />
-                            <img className='about-container__skill-icon' src={JavaScript} alt="react" />
+                            <img className='about-container__skill-icon' src={Csharp} alt="c-sharp" />
+                            <img className='about-container__skill-icon' src={DotNet} alt="dot net" />
+                            <img className='about-container__skill-icon' src={JavaScript} alt="javascript" />
                             <img className='about-container__skill-icon' src={React} alt="react" />
 
-                            <img className='about-container__skill-icon' src={Node} alt="react" />
-                            <img className='about-container__skill-icon' src={Html} alt="react" />
-                            <img className='about-container__skill-icon' src={Css} alt="react" />
-                            <img className='about-container__skill-icon' src={Sass} alt="react" />
+                            <img className='about-container__skill-icon' src={Node} alt="node" />
+                            <img className='about-container__skill-icon' src={Html} alt="html" />
+                            <img className='about-container__skill-icon' src={Css} alt="css" />
+                            <img className='about-container__skill-icon' src={Sass} alt="sass" />
                             
-                            <img className='about-container__skill-icon' src={Git} alt="react" />
-                            <img className='about-container__skill-icon' src={MySql} alt="react" />
+                            <img className='about-container__skill-icon' src={Git} alt="git" />
+                            <img className='about-container__skill-icon' src={MySql} alt="mysql" />
                         </div>
                      
                     </div>
