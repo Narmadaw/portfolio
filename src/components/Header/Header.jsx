@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import ProfileImage from './../../assets/images/pro-pic.jpg' 
 import './Header.scss';
 
