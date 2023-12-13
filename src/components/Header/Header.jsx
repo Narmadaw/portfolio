@@ -1,4 +1,4 @@
-import ProfileImage from './../../assets/images/pro-pic.jpg' 
+import ProfileImage from './../../assets/images/myphoto.JPG' 
 import './Header.scss';
 
 const Header = ()=>{
