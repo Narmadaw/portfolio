@@ -28,7 +28,7 @@ const AboutMe = () =>{
                     <p className='about-container__text'>
                         I love coding. It brings me joy, and that's why I chose software engineering as my profession. The ability to create and solve problems through code is not just a job for me, it's my true passion.
                     </p>
-                    <p className='about-container__text'> I was born and raised on the beautiful island of Sri Lanka. I pursued my <span className='about-container__special'>studies and worked</span> as a <span className='about-container__special'>C# & .Net</span> software engineer for <span className='about-container__special'>3+ years</span>.  
+                    <p className='about-container__text'> I was born and raised on the beautiful island of Sri Lanka. I pursued my <span className='about-container__special'>studies and worked</span> as a <span className='about-container__special'>C# & .Net</span> software engineer for <span className='about-container__special'>5+ years</span>.  
                         Later, I moved to Canada for further studies. 
                         Now, I am looking back to returning to the career I am most passionate about.</p>
                     <p className='about-container__text'>
